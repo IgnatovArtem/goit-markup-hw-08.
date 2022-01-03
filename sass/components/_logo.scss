@@ -1,0 +1,26 @@
+.logo {
+  @include font(24px, 700, 1.16, 0.03em);
+  font-family: Raleway;
+  color: #2196f3;
+  @media screen and (min-width: 1200px) {
+    @include font(26px, 700, 1.19, 0.03em);
+  }
+}
+.header__logo-item {
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+.header__logo-part {
+  color: #000000;
+}
+.footer__logo {
+  color: #ffffff;
+}

@@ -1,0 +1,33 @@
+.example__text {
+  @include font(14px, 700, 1.14, 0.03em);
+  position: absolute;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 360px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.example__list {
+  position: relative;
+  &:not(last-child) {
+    margin-right: 30px;
+  }
+}
+
+.example {
+  display: flex;
+}
+.section-example {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}

@@ -1,0 +1,149 @@
+.title {
+  @include font(36px, 700, 1.16, 0.03em);
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--second-title-color);
+}
+.title__active {
+  padding-top: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+  }
+}
+.customers__title {
+  @include font(28px, 700, 1.17, 0.03em);
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  color: var(--second-title-color);
+  @media screen and (min-width: 1200px) {
+    @include font(36px, 700, 1.16, 0.03em);
+    padding-top: 94px;
+    margin-bottom: 50px;
+  }
+}
+.hero__title {
+  @include font(26px, 900, 1.62, 0.06em);
+  width: 360px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  @media screen and (min-width: 1200px) {
+    @include font(44px, 900, 1.36, 0.06em);
+    width: 696px;
+  }
+}
+.modal__title {
+  @include font(20px, 700, 1.15, 0.03em);
+  text-align: center;
+  margin-bottom: 12px;
+  color: var(--second-title-color);
+}
+.team__title {
+  @include font(16px, 500, 1.18, 0.03em);
+  text-align: center;
+  margin-top: 30px;
+  color: var(--second-title-color);
+}
+.team__text {
+  @include font(16px, 400, 1.18, 0.03em);
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 16px;
+  color: var(--second-title-color);
+}
+.peculiarities__title {
+  @include font(14px, 700, 1.14, 0.03em);
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: var(--header-text-color);
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    display: block;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+    display: block;
+  }
+}
+
+.peculiarities__text {
+  @include font(14px, 400, 1.71, 0.03em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-text-color);
+}
+.portfolio__title {
+  @include font(18px, 700, 2, 0.06em);
+  margin-top: 20px;
+  color: var(--second-title-color);
+}
+.portfolio__about {
+  @include font(16px, 400, 1.87, 0.03em);
+  margin-top: 4px;
+  color: var(--main-text-color);
+}
+.section {
+  padding-bottom: 94px;
+}
+.footer__textstyle {
+  @include font(14px, 400, 1.71, 0.03em);
+}
+.footer__title {
+  @include font(14px, 700, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    text-align: unset;
+  }
+}
+.email__text {
+  @include font(16px, 400, 1.25, 0.03em);
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer__right-title {
+  @include font(14px, 700, 1.14, 0.03em);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  color: var(--main-title-color);
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    text-align: unset;
+  }
+}
+.modal__label {
+  @include font(12px, 400, 1.16, 0.01em);
+  margin-bottom: 4px;
+  display: block;
+  color: var(--main-text-color);
+}
+.text__label {
+  @include font(12px, 400, 1.16, 0.01em);
+  margin-bottom: 4px;
+  display: block;
+}
+.check__text {
+  @include font(14px, 400, 1.71, 0.03em);
+  margin-bottom: 20px;
+  color: #757575;
+  display: flex;
+}
